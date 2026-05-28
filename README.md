@@ -10,6 +10,7 @@
 | Day 2 | 5.12 | Python 进阶 + API 调用 | `day2_class_api.py` — 列表/字典操作、Student 类、GitHub API 调用 |
 | Day 3-4 | 5.13-14 | FastAPI + 数据库 CRUD | `day-3_fastapi/` — 9 个 RESTful 接口 + Pydantic 校验 + Tortoise ORM + MySQL |
 | Day 5 | 5.15 | Git & GitHub | 本仓库上线 |
+| Day 6 | 5.16 | LLM API 调用 | `day-6_llm_api.py` — DeepSeek API 单次对话 + 多轮对话 + FastAPI `/chat` 接口 |
 
 ## 项目结构
 
@@ -17,6 +18,7 @@
 FastAPI-learning/
 ├── day1_basics.py              # Day 1：Python 基础手搓
 ├── day2_class_api.py           # Day 2：类与对象 + API 调用
+├── day-6_llm_api.py            # Day 6：DeepSeek API 调用
 ├── day-3_fastapi/              # Day 3-4：FastAPI + 数据库 CRUD
 │   ├── main.py                 #   FastAPI 路由和接口
 │   ├── models.py               #   Tortoise ORM 数据模型
@@ -37,6 +39,7 @@ FastAPI-learning/
 | ORM | Tortoise ORM |
 | 数据库 | MySQL |
 | 迁移工具 | Aerich |
+| LLM API | DeepSeek API + OpenAI 兼容格式 |
 | 版本控制 | Git + GitHub |
 
 ## 本地运行
